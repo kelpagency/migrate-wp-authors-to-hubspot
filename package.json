@@ -1,0 +1,16 @@
+{
+	"name": "migrate-wp-author-to-hubspot",
+	"version": "1.0.0",
+	"description": "Migrate author bios and avatars in bulk from any WordPress website to HubSpot website",
+	"type": "module",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"author": "Stefen Phelps",
+	"license": "",
+	"dependencies": {
+		"@hubspot/api-client": "^9.1.1",
+		"dotenv": "^16.3.1"
+	}
+}
